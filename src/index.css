@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #faf9f4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.dog {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dog .controls {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dog .controls div {
+    flex: 1;
+}
+
+.dog .controls .dropdown {
+    width: 90%;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.dog .controls button {
+    border: none;
+    margin: 0 10px;
+    width: 70%;
+    height: 30px;
+    background-color: #010108;
+    color: rgb(248, 238, 238);
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #b0b0b0;
+    font-weight: 10;
+    font-size: 12px;
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.dog button:hover {
+    background-color: #7d58e2;
+}
+
+.dog .images {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dog .images img {
+    border: 2px solid #f3e9c5;
+    flex: 1;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    display: none;
+    width: 300px;
+    height: 300px;
+}
+.show {
+    display: block;
+}
